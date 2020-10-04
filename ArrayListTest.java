@@ -9,7 +9,9 @@ public class ArrayListTest{
 		// obj1.add(3);
 		obj1.pop();
 		obj1.resize();
-		
+
+		assert(obj.size() == 4);
+
 		System.out.println("toString " + obj1.toString());
 		System.out.println("The number of elements in the new Array is " + obj1.a);
 		System.out.println("The Size of new Array is " + obj1.size());
